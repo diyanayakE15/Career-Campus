@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 25 50% 15%; /* Deep Warm Brown */
+    --foreground: 30 50% 90%; /* Soft Beige */
+    --card: 25 50% 20%; /* Slightly Lighter Warm Brown */
+    --card-foreground: 30 50% 90%;
+    --popover: 25 50% 15%;
+    --popover-foreground: 30 50% 90%;
+    --primary: 15 85% 55%; /* Warm Sunset Orange */
+    --primary-foreground: 25 50% 15%;
+    --secondary: 20 75% 40%; /* Rich Copper */
+    --secondary-foreground: 30 50% 90%;
+    --muted: 25 50% 30%; /* Earthy Brown */
+    --muted-foreground: 40 25% 95%;
+    --accent: 10 90% 50%; /* Fiery Red-Orange */
+    --accent-foreground: 25 50% 15%;
+    --destructive: 0 80% 50%; /* Bright Red */
+    --destructive-foreground: 30 50% 90%;
+    --border: 25 50% 35%; /* Warm Brown Gray */
+    --input: 25 50% 35%;
+    --ring: 15 85% 55%; /* Sunset Orange Glow */
+    --chart-1: 10 85% 60%; /* Burnt Orange */
+    --chart-2: 30 80% 50%; /* Golden Yellow */
+    --chart-3: 0 70% 50%; /* Deep Red */
+    --chart-4: 40 100% 50%; /* Bright Gold */
+    --chart-5: 350 85% 55%; /* Rich Magenta */
+    --radius: 0.5rem;
+}
+
+.dark {
+    --background: 25 50% 10%; /* Dark Chocolate */
+    --foreground: 30 50% 85%; /* Warm Beige */
+    --card: 25 50% 12%;
+    --card-foreground: 30 50% 85%;
+    --popover: 25 50% 10%;
+    --popover-foreground: 30 50% 85%;
+    --primary: 15 85% 60%; /* Brighter Warm Orange */
+    --primary-foreground: 25 50% 10%;
+    --secondary: 20 75% 30%;
+    --secondary-foreground: 30 50% 85%;
+    --muted: 25 50% 20%;
+    --muted-foreground: 40 25% 90%;
+    --accent: 10 90% 55%; /* Fiery Red */
+    --accent-foreground: 25 50% 10%;
+    --destructive: 0 90% 40%; /* Deep Red */
+    --destructive-foreground: 30 50% 85%;
+    --border: 25 50% 25%;
+    --input: 25 50% 25%;
+    --ring: 15 85% 60%;
+    --chart-1: 10 85% 55%;
+    --chart-2: 30 80% 45%;
+    --chart-3: 0 75% 50%;
+    --chart-4: 40 100% 45%;
+    --chart-5: 350 85% 50%;
+}
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .gradient {
+    @apply bg-gradient-to-b from-gray-400 via-gray-200 to-gray-600;
+  }
+  .gradient-title {
+    background: linear-gradient(90deg, #F8F9FA, #EDEDED, #DADADA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.hero-image-wrapper {
+  perspective: 1000px;
+}
+
+.hero-image {
+  /* transform: rotateX(20deg) scale(0.9) translateY(-50); */
+  transform: rotateX(15deg) scale(1);
+  transition: transform 0.5s ease-out;
+  will-change: transform;
+}
+
+.hero-image.scrolled {
+  transform: rotateX(0deg) scale(1) translateY(40px);
+}
+
+.grid-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.grid-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, transparent, rgba(255, 140, 90, 0.9));
+}
