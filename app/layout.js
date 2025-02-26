@@ -6,6 +6,8 @@ import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { dark } from "@clerk/themes";
 
+import Chatbot from "@/components/ChatBot";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -31,6 +33,7 @@ export default function RootLayout({ children }) {
             enableSystem
             disableTransitionOnChange
           >
+            <Chatbot />
             <Header />
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />

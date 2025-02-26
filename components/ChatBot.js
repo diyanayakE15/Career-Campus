@@ -48,7 +48,10 @@ export default function Chatbot() {
         },
         body: JSON.stringify({
           "model": "google/gemini-2.0-pro-exp-02-05:free",
-          "messages": [{ role: "system", content: "Provide AI-powered career guidance." }, ...newMessages]
+          "messages": [{ 
+            role: "system",
+            content: "You are an AI career advisor. Provide clear, concise responses (~60 words) focused on job guidance. If the user requests more details, expand up to 500 words while staying precise and relevant, only go over this limit by 1000 words if exccessively insisted by user. Maintain context across the conversation to offer personalized and insightful advice." 
+    }, ...newMessages]
         })
       });
 
@@ -84,7 +87,7 @@ export default function Chatbot() {
       {/* Chat Container */}
       {isOpen && (
         <div
-          className={`fixed bottom-5 right-5 bg-[hsl(var(--card))] text-[hsl(var(--foreground))] border border-[hsl(var(--border))] rounded-lg shadow-lg flex flex-col transition-all duration-300 ${
+          className={`fixed bottom-5 right-5 bg-[hsl(var(--card))] text-[hsl(var(--foreground))] border border-[hsl(var(--border))] rounded-lg shadow-lg flex flex-col transition-all duration-300 z-[9999] ${
             isFullscreen
               ? "inset-x-0 bottom-0 w-full h-[90vh] mx-auto rounded-t-lg" // Fullscreen mode (90% height, stays below header)
               : "w-[33%] h-[80vh]" // Floating mode (bottom-right)
@@ -92,7 +95,7 @@ export default function Chatbot() {
         >
 
           {/* Chat Header */}
-          <div className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] p-3 flex justify-between items-center rounded-t-lg">
+          <div className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] p-3 flex justify-between items-center rounded-t-lg z-[9999] ">
             <h5 className="font-semibold">Career Campus AI</h5>
             <div className="space-x-3">              
               <button onClick={minimizeChat} className="text-lg hover:opacity-80">…</button> {/* Minimize Button */}
@@ -102,7 +105,7 @@ export default function Chatbot() {
           </div>
 
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-3 bg-[hsl(var(--background))]">
+          <div className="flex-1 overflow-y-auto p-3 bg-[hsl(var(--background))] z-[9999] ">
             {messages.map((msg, index) => (
               <div
                 key={index}
@@ -118,7 +121,7 @@ export default function Chatbot() {
           </div>
 
           {/* Input Area */}
-          <div className="p-3 flex items-center border-t border-[hsl(var(--border))] bg-[hsl(var(--card))]">
+          <div className="p-3 flex items-center border-t border-[hsl(var(--border))] bg-[hsl(var(--card))] z-[9999] ">
             <input
               type="text"
               className="w-full border border-[hsl(var(--input))] bg-[hsl(var(--background))] text-[hsl(var(--foreground))] rounded-lg p-2 outline-none focus:ring focus:ring-[hsl(var(--ring))]"

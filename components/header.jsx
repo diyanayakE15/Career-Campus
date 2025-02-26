@@ -54,11 +54,11 @@ export default async function Header() {
             {/* New Career Maps Button */}
             <Link href="/careerPath">
               <Button variant="outline" className="hidden md:inline-flex items-center gap-2">
-                <ayoutDashboard className="h-4 w-4" /> {/* Using ayoutDashboard icon instead of Map */}
+                <img src="/stacks_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="RM" /> {/* Using LayoutDashboard icon instead of Map */}
                 Career Maps
               </Button>
               <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
-                <ayoutDashboard className="h-4 w-4" />
+                <LayoutDashboard className="h-4 w-4" />
               </Button>
             </Link>
 
