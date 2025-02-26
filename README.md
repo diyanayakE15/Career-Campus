@@ -152,5 +152,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📞 Contact  
 If you have any questions, feel free to reach out:  
-📧 Email: shreyas.skp@gmail.com | diyan6151@gmail.com | shreyas.skp@gmail.com  
+📧 Email: bhushanchavan0503@gmail.com | diyan6151@gmail.com | shreyas.skp@gmail.com  
 🟦 LinkedIn: [Bhushan Chavan](https://www.linkedin.com/in/bhushanchavan06/) | [Diya Nayak](https://www.linkedin.com/in/diya-nayak6151/) | [Shreyas Kaushik](https://www.linkedin.com/in/shreyas-kaushik/)  
