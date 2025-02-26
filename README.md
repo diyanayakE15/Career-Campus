@@ -7,10 +7,6 @@
 
 ---
 
-## 🌍 Live Demo  
-[Click here to see the live project](https://github.com/diyanayakE15/Career-Campus)  
-
----
 
 ## 🚀 Features  
 
@@ -112,17 +108,18 @@ yarn start
 Make sure to create a `.env` file with following variables -
 
 ```sh
-DATABASE_URL=
+DATABASE_URL = 
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = 
+CLERK_SECRET_KEY = 
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
-GEMINI_API_KEY=
+GEMINI_API_KEY = 
+NEXT_PUBLIC_CHATBOT_API_KEY = 
 ```
  
 *(Rename `.env.example` to `.env.local` and update the values as needed.)*
