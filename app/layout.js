@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/logo.png" sizes="any" />
+          <link rel="icon" href="/public/Career Compass Logo.png" sizes="any" />
         </head>
         <body className={`${inter.className}`}>
           <ThemeProvider
@@ -37,7 +37,14 @@ export default function RootLayout({ children }) {
 
             <footer className="bg-muted/50 py-12">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with 💗 by RoadsideCoder</p>
+                <p>Made with 💗 by <a href="https://github.com/diyanayakE15/Career-Campus" target="_blank">HackPack</a>
+                </p>
+                <p>
+                  <a href="https://www.linkedin.com/in/bhushanchavan06/" target="_blank">Bhushan Chavan</a> |   
+                  <a href="https://www.linkedin.com/in/diya-nayak6151/" target="_blank"> Diya Nayak</a> |   
+                  <a href="https://www.linkedin.com/in/shreyas-kaushik/" target="_blank"> Shreyas Prajapati</a>  
+              </p>
+
               </div>
             </footer>
           </ThemeProvider>
