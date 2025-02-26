@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/public/Career Compass Logo.png" sizes="any" />
+          <link rel="icon" href="/Career Compass Logo.png" sizes="any" />
         </head>
         <body className={`${inter.className}`}>
           <ThemeProvider

@@ -22,10 +22,15 @@ import { testimonial } from "@/data/testimonial";
 import { faqs } from "@/data/faqs";
 import { howItWorks } from "@/data/howItWorks";
 
+import Chatbot from "@/components/ChatBot";
+
+
 export default function LandingPage() {
   return (
     <>
       <div className="grid-background"></div>
+
+      <Chatbot />
 
       {/* Hero Section */}
       <HeroSection />
@@ -203,6 +208,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      <Chatbot />
     </>
   );
 }
