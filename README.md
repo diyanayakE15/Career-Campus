@@ -7,6 +7,11 @@
 
 ---
 
+## 🌍 Live Demo  
+[Click here to see the live project](http://192.168.0.101:3000)  
+
+---
+
 ## 🚀 Features  
 
 ### 🤖 AI-Driven Career Tools  
