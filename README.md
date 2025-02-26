@@ -8,7 +8,7 @@
 ---
 
 ## 🌍 Live Demo  
-[Click here to see the live project](http://192.168.0.101:3000/)  
+[Click here to see the live project](https://github.com/diyanayakE15/Career-Campus)  
 
 ---
 
