@@ -11,9 +11,9 @@
 ## 🚀 Features  
 
 ### 🤖 AI-Driven Career Tools  
-- **Smart Resume Builder** – Generate professional resumes tailored to job descriptions.  
-- **Cover Letter Generator** – Create personalized cover letters in seconds.  
-- **Mock Interview Questins** – Practice interviews with quizes.  
+- **Smart Resume Builder** – Generate professional resumes in seconds.   
+- **Cover Letter Generator** – Create personalized cover letters tailored to job descriptions.   
+- **Mock Interview Questions** – Practice interviews with quizes.  
 
 ### 📊 Real-Time Market Insights  
 - **Salary Trends** – Get insights into industry salary benchmarks.  
