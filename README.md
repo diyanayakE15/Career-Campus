@@ -6,7 +6,20 @@
 *Career Compass is revolutionary web app that empowers individuals at all stages of career development. It uses AI-driven tools, real-time market insights, and interactive features to give career guidance tailored to the individual.*
 
 ---
+## 🚀 Tech Stack  
+### Frontend:
+- **Shadcn UI** – Pre-built UI components with Tailwind CSS
+- **Next.js** – React framework
+- **Tailwind CSS** –  CSS framework for styling
 
+### Backend:
+- **Neon Tech** – Serverless PostgreSQL database
+- **Prisma** – ORM for interacting with the database
+- **Inngest** – Backend workflow engine for async tasks and event-driven functions (used in calling functions with api)
+- **Clerk** – User authentication and session management
+
+### APIs:
+- **Gemini API** – (Gemini 1.5 Flash) for AI-powered functionalities
 
 ## 🚀 Features  
 
