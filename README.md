@@ -1,7 +1,7 @@
 # ✨ TECHNOVA -- TEAM HackPack -- GenAI Problem Statement 1 ✨  
 
 # 🚀 CAREER COMPASS
-### AI Career Counselor with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI, Clerk
+### AI Career Counselor with Next JS, Tailwind, Shadcn UI, Prisma, Clerk, Neon DB, Inngest
 
 *Career Compass is revolutionary web app that empowers individuals at all stages of career development. It uses AI-driven tools, real-time market insights, and interactive features to give career guidance tailored to the individual.*
 
