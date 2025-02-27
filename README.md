@@ -1,7 +1,7 @@
 # ✨ TECHNOVA -- TEAM HackPack -- GenAI Problem Statement 1 ✨  
 
-# 🚀 Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI
-
+# 🚀 CAREER COMPASS
+### AI Career Counselor with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI, Clerk
 
 *Career Compass is revolutionary web app that empowers individuals at all stages of career development. It uses AI-driven tools, real-time market insights, and interactive features to give career guidance tailored to the individual.*
 
@@ -87,6 +87,8 @@ yarn start
  ├── /public               # Static assets (images, fonts, etc.)
  ├── .eslintrc.json        # ESLint configuration
  ├── .gitignore            # Files to be ignored by Git
+ ├── LICENSE               # MIT license declaration
+ ├── README.md             # This file!
  ├── components.json       # Component metadata/config
  ├── eslint.config.mjs     # ESLint module configuration
  ├── jsconfig.json         # JavaScript configuration for module resolution
@@ -95,8 +97,7 @@ yarn start
  ├── package-lock.json     # Dependency lockfile for npm
  ├── package.json          # Project dependencies and scripts
  ├── postcss.config.mjs    # PostCSS configuration (used with Tailwind CSS)
- ├── tailwind.config.mjs   # Tailwind CSS configuration
- └── README.md             # This file!
+ └── tailwind.config.mjs   # Tailwind CSS configuration
 ```
 
 ---
