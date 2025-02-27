@@ -13,7 +13,7 @@
 ### 🤖 AI-Driven Career Tools  
 - **Smart Resume Builder** – Generate professional resumes tailored to job descriptions.  
 - **Cover Letter Generator** – Create personalized cover letters in seconds.  
-- **Mock Interview Simulator** – Practice interviews with AI-driven feedback.  
+- **Mock Interview Questins** – Practice interviews with quizes.  
 
 ### 📊 Real-Time Market Insights  
 - **Salary Trends** – Get insights into industry salary benchmarks.  
@@ -21,14 +21,11 @@
 - **Job Market Forecasts** – Stay ahead with AI-driven job trend predictions.  
 
 ### 🎮 Interactive & Engaging Features  
-- **Gamified Roadmaps** – Step-by-step career guides with progress tracking.  
 - **Peer Networking** – Connect with professionals and job seekers.  
 - **AI Mentorship** – Get career advice from an AI-powered mentor.  
 
 ### 🎯 Personalized Career Recommendations  
 - **AI-Powered Career Path Suggestions** – Find the best career options based on your skills.  
-- **Netflix-Style Job & Course Recommendations** – Get tailored job postings and learning resources.  
-- **Adaptive Learning Paths** – Customized skill-building recommendations to help you grow.  
 
 ---
 
